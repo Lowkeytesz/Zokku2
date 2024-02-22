@@ -32,7 +32,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*╔═════ •✧✧• ════╗*
+*╔═😈══ •✧𖣘𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫✧• ══😈══╗*
 ┃   *Préfix* : ${s.PREFIXE}
 ┃   *Owner* : ${s.OWNER_NAME}
 ┃   *Mode* : ${mode}
@@ -41,8 +41,8 @@ const date = moment().format('DD/MM/YYYY');
 ┃   *Hour* : ${temps}
 ┃   *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┃   *Plateforme* : ${os.platform()}
-┃   *Développer* : Djalega++ 
-┃  & M๏𝓷keℽ D Lบffy
+┃   *Développer* : 𝑴𝑨𝑿𝑾𝑬𝑳𝑳
+┃   *CUSTOMER CARE:+2349120730021
 *╚═════ •✧✧• ════╝* \n\n`;
     
 let menuMsg = `
@@ -68,7 +68,7 @@ I'm *${s.NOM}*, a bot developped by team zokou.
 *»»————— ★ —————««*
 for use a command, insert  ${prefixe}"command_name"
  
- *『ZokouMD*
+ *𖣘𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫♡●*
                                                 
 *»»————— ★ —————««*
 `;

@@ -32,7 +32,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*╔═🥶══ •༆✯𝑴𝑪𝑹𝑶𝑺𝑺-𝑴𝑫✯༆• ══🥶══╗*
+*╔═🥶══•༆✯𝑴𝑪𝑹𝑶𝑺𝑺-𝑴𝑫✯༆•══🥶══╗*
 ┃   *ᴘʀᴇғɪx* : ${s.PREFIXE}
 ┃   *ᴏᴡɴᴇʀ* : ${s.OWNER_NAME}
 ┃   *ᴍᴏᴅᴇ* : ${mode}
@@ -41,7 +41,7 @@ const date = moment().format('DD/MM/YYYY');
 ┃   *ʜᴏᴜʀs* : ${temps}
 ┃   *ᴍᴇᴍᴏʀɪᴇs* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┃   *ᴘʟᴀᴛᴇғᴏʀᴍ* : ${os.platform()}
-┃   *ᴅᴇᴠᴇʟᴏᴘᴇʀ* : ༆𝑲𝑰𝑵𝑮 𝑴-𝑪𝑹𝑶𝑺𝑺༆
+┃   *ᴅᴇᴠᴇʟᴏᴘᴇʀ* : ༆ 𝑲.𝑰.𝑵.𝑮 ✯ 𝑴-𝑪.𝑹.𝑶.𝑺.𝑺.༆
 ┃   *ᴄᴜsᴛᴏᴍᴇʀ ᴄᴀʀᴇ/ʜᴇʟᴘ*:https://wa.me/2349042566473
 *╚═════ •✧✧• ════╝* \n\n`;
     
@@ -57,20 +57,20 @@ let menuMsg = `
         menuMsg += `*╔══✵* *${cat}*  *✵ ══╗*`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-*🥷🏽* ${cmd}`;
+*💡* ${cmd}`;
         }
         menuMsg += `
-*╚════ ✯𝐌𝐂𝐑𝐎𝐒𝐒✯ ═══╝* \n`
+*╚════ ✯𝒎𝒄𝒓𝒐𝒔𝒔✯ ═══╝* \n`
     }
 
     menuMsg += `
 ◇            ◇
-*»»—————✯𝐌𝐂𝐑𝐎𝐒𝐒✯—————««*
+*»»—————⌘—————««*
 for use a command, insert  ${prefixe}"command_name"
  
- **
+ ༆✯𝑴𝑪𝑹𝑶𝑺𝑺-𝑴𝑫✯༆
                                                 
-*»»—————✯𝐌𝐂𝐑𝐎𝐒𝐒✯—————««*
+*»»—————✯✅✯—————««*
 `;
 
    var lien = mybotpic();

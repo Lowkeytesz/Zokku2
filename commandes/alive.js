@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *Zokou_MD version 2.0*`
+ *𝑲𝑰𝑵𝑮 𝑴-𝑪𝑹𝑶𝑺𝑺*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -73,7 +73,7 @@ else {
     } else {
         if(!superUser) { repondre("there is no alive for this bot") ; return};
 
-      await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
+      await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien.(𝑯𝑶𝑷𝑬 𝒀𝑶𝑼 𝑮𝑹𝑨𝑩 𝑰𝑫𝑰𝑶𝑻)");
          repondre("don't do fake thinks :)")
      }
  } else {
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre('message alive refresh successfully')
+repondre('𝑫𝑶𝑵𝑬 𝑪𝑯𝑨𝑵𝑮𝑰𝑵𝑮 𝑻𝑯𝑬 𝑨𝑳𝑰𝑽𝑬 𝑴𝑬𝑺𝑺𝑨𝑮𝑬')
 
 }
     });

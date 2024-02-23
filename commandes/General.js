@@ -1,8 +1,8 @@
-const { zokou } = require("../framework/zokou");
+const { mcross } = require("../framework/zokou");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 
-zokou({ nomCom: "mods", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "mods", categorie: "General", reaction: "🤖" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -55,12 +55,11 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "💞" }, async (dest, zk
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Djalega++", numero: "22559763447" },
-      { nom: "᚛M๏𝓷keℽ D Lบffy᚜", numero: "22891733300" },
+      { nom: "『𝐌𝐂𝐑𝐎𝐒𝐒-𝐌𝐃』", numero: "2349042566473" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 welcome to Zokou ! here is the dev :\n\n";
+    let message = "👋 welcome to 『𝐌𝐂𝐑𝐎𝐒𝐒-𝐌𝐃』 ! here is the dev :\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -91,7 +90,7 @@ else {
 }
 });
 
-zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
+mcross({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")

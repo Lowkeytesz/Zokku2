@@ -34,13 +34,13 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 *╔═══•༆✯𝑴𝑪𝑹𝑶𝑺𝑺-𝑴𝑫✯༆•════╗*
 ┃   *ᴘʀᴇғɪx* : ${s.PREFIXE}
-┃   *ᴏᴡɴᴇʀ* : ${s.OWNER_NAME}
+┃   *ᴏᴡɴᴇʀ* :${s.OWNER_NAME}
 ┃   *ᴍᴏᴅᴇ* : ${mode}
 ┃   *ᴄᴏᴍᴍᴀɴᴅs* : ${cm.length}
 ┃   *ᴅᴀᴛᴇ* : ${date}
 ┃   *ʜᴏᴜʀs* : ${temps}
 ┃   *ᴍᴇᴍᴏʀɪᴇs* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃   *ᴘʟᴀᴛᴇғᴏʀᴍ* : ${os.platform()}
+┃   *ᴘʟᴀᴛᴇғᴏʀᴍ* : ✐𝙼𝙲𝚁𝙾𝚂𝚂-𝙼𝙳✐
 ┃   *ᴅᴇᴠᴇʟᴏᴘᴇʀ* : ༆𝑲𝑰𝑵𝑮✯𝑴-𝑪𝑹𝑶𝑺𝑺༆
 ┃   *ᴄᴜsᴛᴏᴍᴇʀ ᴄᴀʀᴇ/ʜᴇʟᴘ*:2349042566473
 *╚═════•✪𝙼𝙲𝚁𝙾𝚂𝚂✪•════╝* \n\n`;
@@ -60,15 +60,19 @@ let menuMsg = `
 *⚜️* ${cmd}`;
         }
         menuMsg += `
-*╚════✪𝙼𝙲𝚁𝙾𝚂𝚂✪════╝* \n`
+*╚════☞𝙼𝙲𝚁𝙾𝚂𝚂☜════╝* \n`
     }
 
     menuMsg += `
 ◇            ◇
-*»»—————⌘—————««*
-for use a command, insert  ${prefixe}"command_name"
+*☛—————🌹—————☚*
+
+𝚏𝚘𝚛 𝚞𝚜𝚎 𝚊 𝚌𝚘𝚖𝚖𝚊𝚗𝚍, 𝚒𝚗𝚜𝚎𝚛𝚝  ${prefixe}"𝚌𝚘𝚖𝚖𝚊𝚗𝚍_𝚗𝚊𝚖𝚎"
+
+ 
  
  ༆✯ＫＩＮＧ🌹ＭＣＲＯＳＳ✯༆
+
  
                                                 
 *»»—————✯💎✯—————««*

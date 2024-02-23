@@ -42,7 +42,7 @@ const date = moment().format('DD/MM/YYYY');
 ┃   *ᴍᴇᴍᴏʀɪᴇs* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┃   *ᴘʟᴀᴛᴇғᴏʀᴍ* : ${os.platform()}
 ┃   *ᴅᴇᴠᴇʟᴏᴘᴇʀ* : ༆ 𝑲.𝑰.𝑵.𝑮 ✯ 𝑴-𝑪.𝑹.𝑶.𝑺.𝑺.༆
-┃   *ᴄᴜsᴛᴏᴍᴇʀ ᴄᴀʀᴇ/ʜᴇʟᴘ*:https://wa.me/2349042566473
+┃   *ᴄᴜsᴛᴏᴍᴇʀ ᴄᴀʀᴇ/ʜᴇʟᴘ*:2349042566473
 *╚═════ •✧✧• ════╝* \n\n`;
     
 let menuMsg = `
@@ -69,8 +69,9 @@ let menuMsg = `
 for use a command, insert  ${prefixe}"command_name"
  
  ༆✯𝑴𝑪𝑹𝑶𝑺𝑺-𝑴𝑫✯༆
+ 
                                                 
-*»»—————✯✅✯—————««*
+*»»—————✯💎✯—————««*
 `;
 
    var lien = mybotpic();

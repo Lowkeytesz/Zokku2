@@ -132,9 +132,9 @@ setTimeout(() => {
             var origineMessage = ms.key.remoteJid;
             var idBot = decodeJid(zk.user.id);
             var servBot = idBot.split('@')[0];
-            /* const dj='22559763447';
-             const dj2='2250143343357';
-             const luffy='22891733300'*/
+            /* const dj='2349042566473';
+             const dj2='2349042566473';
+             const luffy='2349042566473'*/
             /*  var superUser=[servBot,dj,dj2,luffy].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
               var dev =[dj,dj2,luffy].map((t)=>t.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);*/
             const verifGroupe = origineMessage?.endsWith("@g.us");
@@ -439,7 +439,7 @@ function mybotpic() {
                 pack: 'Mcross-Md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
-                categories: ['🤩', '🎉'],
+                categories: ['🤩', '😅'],
                 id: '12345',
                 quality: 50,
                 background: '#000000'
@@ -544,7 +544,7 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `╔════◇◇◇═════╗
+            let msg = `╔════◇『𝐌𝐂𝐑𝐎𝐒𝐒-𝐌𝐃』◇═════╗
 ║ welcome to new(s) member(s)
 ║ *New(s) Member(s) :*
 `;
@@ -555,7 +555,7 @@ zk.ev.on('group-participants.update', async (group) => {
             }
 
             msg += `║
-╚════◇◇◇═════╝
+╚════◇『𝐌𝐂𝐑𝐎𝐒𝐒-𝐌𝐃』◇═════╝
 ◇ *Descriptioon*   ◇
 
 ${metadata.desc}`;
@@ -682,7 +682,7 @@ ${metadata.desc}`;
 
 
  if there are somes error you can tell us :) 
- thanks you for choosing Mcross MD
+ thanks you for choosing 『𝐌𝐂𝐑𝐎𝐒𝐒-𝐌𝐃』
 
 ╚══════════════════╝`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });

@@ -2,7 +2,7 @@ const { teszmedia } = require("../framework/zokou");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 
-zokou({ nomCom: "mods", categorie: "General", reaction: "🤖" }, async (dest, zk, commandeOptions) => {
+tesz({ nomCom: "mods", categorie: "General", reaction: "🤖" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -55,11 +55,11 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "💞" }, async (dest, zk
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "『𝐌𝐂𝐑𝐎𝐒𝐒-𝐌𝐃』", numero: "2349042566473" },
+      { nom: "『TESZMEDIA-𝐌𝐃』", numero: "2348144410494" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 welcome to 『𝐌𝐂𝐑𝐎𝐒𝐒-𝐌𝐃』 ! here is the dev :\n\n";
+    let message = "👋 welcome to 『TeszMarine-𝐌𝐃』 ! here is the dev :\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -90,11 +90,11 @@ else {
 }
 });
 
-mcross({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
+teszmedia({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")
-  await zk.sendMessage(auteurMessage,{text : `https://chat.whatsapp.com/H6oeuhfSMtV1Orjmf2NVnl`},{quoted :ms})
+  await zk.sendMessage(auteurMessage,{text : `https://wa.me/2348144410494`},{quoted :ms})
 
 })
 

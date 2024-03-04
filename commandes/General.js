@@ -1,4 +1,4 @@
-const { mcross } = require("../framework/zokou");
+const { teszmedia } = require("../framework/zokou");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 

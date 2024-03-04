@@ -32,7 +32,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*╔═══•༆✯𝑴𝑪𝑹𝑶𝑺𝑺-𝑴𝑫✯༆•════╗*
+*╔═══•༆🌹TeszMedia🌹༆•════╗*
 ┃   *ᴘʀᴇғɪx* : ${s.PREFIXE}
 ┃   *ᴏᴡɴᴇʀ* :${s.OWNER_NAME}
 ┃   *ᴍᴏᴅᴇ* : ${mode}
@@ -41,13 +41,13 @@ const date = moment().format('DD/MM/YYYY');
 ┃   *ʜᴏᴜʀs* : ${temps}
 ┃   *ᴍᴇᴍᴏʀɪᴇs* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┃   *ᴘʟᴀᴛᴇғᴏʀᴍ* : ✐𝙼𝙲𝚁𝙾𝚂𝚂-𝙼𝙳✐
-┃   *ᴅᴇᴠᴇʟᴏᴘᴇʀ* : ༆𝑲𝑰𝑵𝑮✯𝑴-𝑪𝑹𝑶𝑺𝑺༆
-┃   *ᴄᴜsᴛᴏᴍᴇʀ ᴄᴀʀᴇ/ʜᴇʟᴘ*:2349042566473
-*╚═════•✪𝙼𝙲𝚁𝙾𝚂𝚂✪•════╝* \n\n`;
+┃   *ᴅᴇᴠᴇʟᴏᴘᴇʀ* 🌹 Teszmedia 🌹
+┃   *ᴄᴜsᴛᴏᴍᴇʀ ᴄᴀʀᴇ/ʜᴇʟᴘ*:2348144410494
+*╚═════•✪Tesz-Md✪•════╝* \n\n`;
     
 let menuMsg = `
 👋 Hello ${nomAuteurMessage} 👋
-𝑰'𝑴 ༆✯𝑴𝑪𝑹𝑶𝑺𝑺-𝑴𝑫✯༆, 𝑨 𝑾𝑯𝑨𝑻𝑺𝑨𝑷𝑷 𝑩𝑶𝑻 𝑫𝑬𝑽𝑬𝑳𝑶𝑷𝑬𝑫 𝑩𝒀 ❝𝗞𝗜𝗡𝗚☆𝗠-𝗖𝗥𝗢𝗦𝗦❞.
+𝑰'𝑴 ༆✯Sir Tesz✯༆, 𝑨 𝑾𝑯𝑨𝑻𝑺𝑨𝑷𝑷 𝑩𝑶𝑻 𝑫𝑬𝑽𝑬𝑳𝑶𝑷𝑬𝑫 𝑩𝒀 ❝TeszMedia Official✅❞.
 
 *𝐿𝐼𝑆𝑇 𝑂𝐹 𝐶𝑂𝑀𝑀𝐴𝑁𝐷𝑆 𝐹𝑂𝑅 𝑀𝐶𝑅𝑂𝑆𝑆-𝑀𝐷 :*
 ◇                             ◇
@@ -57,25 +57,25 @@ let menuMsg = `
         menuMsg += `*╔══✵* *${cat}*  *✵ ══╗*`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-*⚜️* ${cmd}`;
+*🌹* ${cmd}`;
         }
         menuMsg += `
-*╚════☞𝙼𝙲𝚁𝙾𝚂𝚂☜════╝* \n`
+*╚════☞TESZ🤫☜════╝* \n`
     }
 
     menuMsg += `
 ◇            ◇
-*☛—————🌹—————☚*
+*☛—————TESZ MEDIA ⚓—————☚*
 
 𝚏𝚘𝚛 𝚞𝚜𝚎 𝚊 𝚌𝚘𝚖𝚖𝚊𝚗𝚍, 𝚒𝚗𝚜𝚎𝚛𝚝  ${prefixe}"𝚌𝚘𝚖𝚖𝚊𝚗𝚍_𝚗𝚊𝚖𝚎"
 
  
  
- ༆✯ＫＩＮＧ🌹ＭＣＲＯＳＳ✯༆
+ ༆⚓Tesz⚓ Marine⚓༆
 
  
                                                 
-*»»—————✯💎✯—————««*
+*»»—————✯TeszMD✯—————««*
 `;
 
    var lien = mybotpic();

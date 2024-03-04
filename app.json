@@ -1,8 +1,8 @@
 {
-  "name":"⫷✯𝙈𝘾𝙍𝙊𝙎𝙎-𝙈𝘿✯⫸",
-  "description":"bot whatsapp développé par MCROSS-MD",
+  "name":"TeszLife Media",
+  "description":"bot whatsapp développé par TeszMedia",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/6db4fb812fbe0d961fd79.jpg",
+  "logo":"https://telegra.ph/file/0489ed39dfbbda7b90dcb.jpg",
   "repository":"https://wa.me/qr/MY2JIUSBX5FJD1",
   "succes_url":"/",
   "stack":"container",
@@ -10,7 +10,7 @@
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":"✅",
+      "value":"!",
       "required":true
     },
     "AUTO_READ_STATUS":
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"༆✯𝙈𝘾𝙍𝙊𝙎𝙎-𝙈𝘿✯༆",
+      "value":"Tesz-MD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/b7b454066f05811503f57.mp4",
+      "value":"https://telegra.ph/file/1187d2050b3c36a14709b.jpg",
       "required":true
        
      },
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "❝𝙆𝙄𝙉𝙂⑅𝙈-𝘾𝙍𝙊𝙎𝙎❞"
+    "value": "❝Tesz-Md❞"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "2349042566473"
+    "value": "2348144410494"
   },
     "WARN_COUNT":
   {

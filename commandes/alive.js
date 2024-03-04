@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *𝑲𝑰𝑵𝑮 𝑴-𝑪𝑹𝑶𝑺𝑺*`
+ *TeszMedia official *`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {

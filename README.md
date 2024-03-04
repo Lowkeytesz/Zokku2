@@ -1,12 +1,12 @@
-# MCROSS-2.0
+# TESZMEDIA 5.0
 
 
 
-MCROSS is a multi-device bot designed to enhance your WhatsApp conversations with useful and fun features. Whether managing files, interacting with stickers, or facilitating group management, MCROSS is here to assist you.
+Tesz Bot is a multi-device bot designed to enhance your WhatsApp conversations with useful and fun features. Whether managing files, interacting with stickers, or facilitating group management, MCROSS is here to assist you.
 
 ## Key Features
 
-- **File Download:** MCROSS can download audio and video files from links you send, making it easy to share them with your contacts.
+- **File Download:** TeszBot can download audio and video files from links you send, making it easy to share them with your contacts.
 
 - **Sticker Export:** You can export stickers from Telegram and use them in your WhatsApp conversations by simply sending them to MCROSS. You need the api key from api.lolhuman.xyz; an API key is provided in case you don't have one: `9d05ccc5f58e1cf30937`
 
@@ -20,9 +20,9 @@ MCROSS is a multi-device bot designed to enhance your WhatsApp conversations wit
 
 - **Inspiring Quotes:** Receive inspiring quotes to motivate you daily.
 
-## Get MCROSS
+## Get TeszBot
 
-1. Click on **[Fork](https://github.com/Faouz995/Zokou-2.0-englishV/fork)** to copy the repo to your GitHub account. Make sure to add a star 🌟 to encourage the developers.
+1. Click on **[Fork](https://github.com/Lowkeytesz/Zokku2)** to copy the repo to your GitHub account. Make sure to add a star 🌟 to encourage the developers.
 
 2. Obtain a bot session: 
 
@@ -35,16 +35,16 @@ MCROSS is a multi-device bot designed to enhance your WhatsApp conversations wit
 
 ## Contributions
 
-Contributions to MCROSS are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
+Contributions to TeszBot are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
 ## License
 
-The WhatsApp Bot MCROSS is released under the [MIT License](https://opensource.org/licenses/MIT).
+The WhatsApp Bot Tesz is released under the [MIT License](https://opensource.org/licenses/MIT).
 
-Enjoy the diverse features of the WhatsApp Bot Zokou to enhance your conversations and make your WhatsApp experience more interesting!
+Enjoy the diverse features of the WhatsApp Bot Tesz to enhance your conversations and make your WhatsApp experience more interesting!
 
 ## Developer:
 
-- [**KÌÑG M-ÇRØSS**](https://wa.me/2349042566473)
-  
+- [**Teszmarine**](https://wa.me/2348144410494)
+
 

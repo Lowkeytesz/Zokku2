@@ -80,7 +80,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['Mcross-Md', "safari", "1.0.0"],
+            browser: ['Tesz-Md', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -154,18 +154,18 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '2349042566473';
-            const dj2 = '2349042566473';
-            const dj3 = "2349042566473";
-            const luffy = '2349042566473';
-            const sudo = await getAllSudoNumbers(2349042566473);
+            const dj = '2348144410494';
+            const dj2 = '2348144410494';
+            const dj3 = "2348144410494";
+            const luffy = '2348144410494';
+            const sudo = await getAllSudoNumbers(2348144410494);
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
             const superUser = allAllowedNumbers.includes(auteurMessage);
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{MCROSS-MD}...[][]");
+            console.log("\t [][]...{TESZ-MD}...[][]");
             console.log("=========== Nouveau message ===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -251,7 +251,7 @@ function mybotpic() {
             if (ms.key && ms.key.remoteJid === "status@broadcast" && conf.AUTO_READ_STATUS === "yes") {
                 await zk.readMessages([ms.key]);
             }
-            if (ms.key && ms.key.remoteJid === 'status@broadcast' && conf.AUTO_DOWNLOAD_STATUS === "yes") {
+            if (ms.key && ms.key.remoteJid === 'status@broadcast' && conf.AUTO_DOWNLOAD_STATUS === "no") {
                 /* await zk.readMessages([ms.key]);*/
                 if (ms.message.extendedTextMessage) {
                     var stTxt = ms.message.extendedTextMessage.text;
@@ -339,7 +339,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: '༆✯𝐌𝐂𝐑𝐎𝐒𝐒-𝐌𝐃✯༆',
+                                        pack: '༆🌹 TESZ⚓Marine🌹༆',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -436,7 +436,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Mcross-Md',
+                pack: 'Tesz⚓',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '😅'],
@@ -537,7 +537,7 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         ppgroup = await zk.profilePictureUrl(group.id, 'image');
     } catch {
-        ppgroup = 'https://telegra.ph/file/4cc2712eee93c105f6739.jpg';
+        ppgroup = 'https://telegra.ph/file/1187d2050b3c36a14709b.jpg';
     }
 
     try {
@@ -555,7 +555,7 @@ zk.ev.on('group-participants.update', async (group) => {
             }
 
             msg += `║
-╚════◇『𝐌𝐂𝐑𝐎𝐒𝐒-𝐌𝐃』◇═════╝
+╚════◇『Tesz💎』◇═════╝
 ◇ *Descriptioon*   ◇
 
 ${metadata.desc}`;
@@ -671,18 +671,18 @@ ${metadata.desc}`;
                 console.log("chargement des commandes terminé ✅");
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `╔════◇
-║ 『𝐌𝐂𝐑𝐎𝐒𝐒-𝐌𝐃』
+║ 『🌹Tesz-𝐌𝐃』
 ║    Prefix : [ ${prefixe} ]
 ║    Mode :${md}
 ║    Total Commandes : ${evt.cm.length}
-║︎    Whatsapp Contact/Help : https://wa.me/2349042566473
+║︎    Whatsapp Contact/Help : https://wa.me/2348144410494
 ╚══════════════════╝
 
 ╔═════◇
 
 
  if there are somes error you can tell us :) 
- thanks you for choosing 『𝐌𝐂𝐑𝐎𝐒𝐒-𝐌𝐃』
+ thanks you for choosing 『Tesz-𝐌𝐃』
 
 ╚══════════════════╝`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });

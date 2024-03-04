@@ -1,5 +1,5 @@
 {
-  "name": "༆✯𝐌𝐂𝐑𝐎𝐒𝐒-𝐌𝐃✯༆",
+  "name": "༆✯TeszMedia-𝐌𝐃✯༆",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "whatsapp-bot",
     "Mcross"
   ],
-  "author": "༆✯𝐌𝐂𝐑𝐎𝐒𝐒-𝐌𝐃✯༆",
+  "author": "༆✯TeszMediaOfficial⚓✯༆",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
